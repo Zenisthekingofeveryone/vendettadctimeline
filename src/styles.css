@@ -96,7 +96,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   letter-spacing: .14em;
   text-transform: uppercase;
 }
-.brand, .nav-link { color: var(--paper); text-decoration: none; }
+.brand { color: var(--paper); text-decoration: none; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 500; }
 .brand-mark { color: var(--amber); display: grid; place-items: center; }
 .nav-status { color: var(--muted); display: flex; align-items: center; gap: 9px; }
@@ -108,8 +108,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   box-shadow: 0 0 0 0 rgba(129, 150, 125, .5);
   animation: pulse 2.4s infinite;
 }
-.nav-link { justify-self: end; color: var(--muted); transition: color .2s ease; }
-.nav-link:hover { color: var(--amber); }
 
 .hero {
   width: min(1180px, calc(100% - 48px));
@@ -365,23 +363,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .empty-state p { margin: 0 0 24px; }
 .empty-state button { border: 1px solid var(--amber); background: transparent; color: var(--amber); padding: 10px 16px; cursor: pointer; text-transform: uppercase; letter-spacing: .12em; }
 
-.status-section {
-  width: min(1180px, calc(100% - 48px));
-  margin: 0 auto;
-  padding: 90px 0 100px;
-  border-top: 1px solid var(--line);
-}
-.status-heading { display: grid; grid-template-columns: 1fr 2fr; align-items: end; margin-bottom: 44px; }
-.status-heading p { color: var(--amber); font: 400 9px/1 'DM Mono', monospace; letter-spacing: .16em; text-transform: uppercase; }
-.status-heading h2 { margin: 0; font: 600 clamp(46px, 7vw, 86px)/.9 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: -.04em; }
-.status-grid { display: grid; grid-template-columns: 1.2fr .9fr .9fr; border: 1px solid var(--line); }
-.status-grid article { min-height: 240px; padding: 28px; border-right: 1px solid var(--line); display: flex; flex-direction: column; align-items: flex-start; }
-.status-grid article:last-child { border-right: 0; }
-.status-grid svg { color: var(--amber); margin-bottom: auto; }
-.status-grid span { color: var(--muted); font: 400 8px/1 'DM Mono', monospace; letter-spacing: .14em; text-transform: uppercase; }
-.status-grid strong { margin: 10px 0 8px; color: var(--paper); font: 600 31px/1 'Oswald', sans-serif; text-transform: uppercase; }
-.status-grid p { margin: 0; color: #8f928a; font-size: 14px; line-height: 1.5; }
-
 footer {
   width: min(1180px, calc(100% - 48px));
   margin: 0 auto;
@@ -440,11 +421,6 @@ footer > span { text-align: right; }
   .event-date strong { font-size: 15px; }
   .event-date span { margin-top: 3px; }
   .event-left .card-meta { flex-direction: row; }
-  .status-section { width: min(100% - 32px, 1180px); padding-top: 65px; }
-  .status-heading { grid-template-columns: 1fr; gap: 20px; }
-  .status-grid { grid-template-columns: 1fr; }
-  .status-grid article { min-height: 210px; border-right: 0; border-bottom: 1px solid var(--line); }
-  .status-grid article:last-child { border-bottom: 0; }
   footer { width: min(100% - 32px, 1180px); grid-template-columns: 1fr auto; }
   footer p { display: none; }
 }

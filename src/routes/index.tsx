@@ -7,8 +7,6 @@ import {
   Filter,
   Radio,
   Search,
-  ShieldAlert,
-  Sparkles,
   X,
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
@@ -181,7 +179,6 @@ function TimelineArchive() {
           <span className="pulse" />
          connection stable
         </div>
-        <a className="nav-link" href="#current-status">Current status</a>
       </nav>
 
       <section className="hero" id="top">
@@ -310,33 +307,6 @@ function TimelineArchive() {
             </button>
           </div>
         )}
-      </section>
-
-      <section className="status-section" id="current-status">
-        <div className="status-heading">
-          <p>Live intelligence / 2095.01.12</p>
-          <h2>Current situation</h2>
-        </div>
-        <div className="status-grid">
-          <article>
-            <ShieldAlert size={20} />
-            <span>Crime Rate</span>
-            <strong>Escalating</strong>
-            <p>Organized crime continues to tighten its grip on Gotham.</p>
-          </article>
-          <article>
-            <Sparkles size={20} />
-            <span>Vigilante Reports</span>
-            <strong>The Bat</strong>
-            <p>Rumors of a masked vigilante spread through the underworld.</p>
-          </article>
-          <article>
-            <Radio size={20} />
-            <span>Police Scanner</span>
-            <strong>01:37 AM</strong>
-            <p>“Multiple suspects apprehended... no officers on scene.</p>
-          </article>
-        </div>
       </section>
 
       <footer>
