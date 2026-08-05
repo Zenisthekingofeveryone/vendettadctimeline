@@ -320,21 +320,21 @@ function TimelineArchive() {
         <div className="status-grid">
           <article>
             <ShieldAlert size={20} />
-            <span>Threat condition</span>
-            <strong>Obsidian</strong>
-            <p>All lunar traffic suspended. Civilian channels remain open.</p>
+            <span>Crime Rate</span>
+            <strong>Escalating</strong>
+            <p>Organized crime continues to tighten its grip on Gotham.</p>
           </article>
           <article>
             <Sparkles size={20} />
-            <span>Unknown posture</span>
-            <strong>Retreating</strong>
-            <p>Thirty-one identified vessels now inside Earth orbit.</p>
+            <span>Vigilante Reports</span>
+            <strong>The Bat</strong>
+            <p>Rumors of a masked vigilante spread through the underworld.</p>
           </article>
           <article>
             <Radio size={20} />
-            <span>Last transmission</span>
-            <strong>06:42 UTC</strong>
-            <p>“Do not let it see the oceans.” Origin unconfirmed.</p>
+            <span>Police Scanner</span>
+            <strong>01:37 AM</strong>
+            <p>“Multiple suspects apprehended... no officers on scene.</p>
           </article>
         </div>
       </section>
