@@ -88,7 +88,7 @@ const events: TimelineEvent[] = [
     faction: 'Earth',
     status: 'Pending',
     accent: 'violet',
-    chapter: 'The Age of Heroes',
+    chapter: 'The Golden Age',
   },
   {
     id: 6,
