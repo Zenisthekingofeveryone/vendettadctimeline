@@ -321,31 +321,29 @@ function TimelineArchive() {
           <article>
             <ShieldAlert size={20} />
             <span>Threat condition</span>
-            <strong>Severe</strong>
-            <p>Organized crime continues to tighten its grip on Gotham.</p>
+            <strong>Obsidian</strong>
+            <p>All lunar traffic suspended. Civilian channels remain open.</p>
           </article>
           <article>
             <Sparkles size={20} />
-            <span>Vigilante Activity</span>
-            <strong>Confirmed</strong>
-            <p>Reports of a masked figure continue to spread across the city.</p>
+            <span>Unknown posture</span>
+            <strong>Retreating</strong>
+            <p>Thirty-one identified vessels now inside Earth orbit.</p>
           </article>
           <article>
             <Radio size={20} />
-            <span>GCPD Dispatch</span>
-            <strong>12:14 AM</strong>
-            <p>"Multiple suspects apprehended... no officers on scene."</p>
+            <span>Last transmission</span>
+            <strong>06:42 UTC</strong>
+            <p>“Do not let it see the oceans.” Origin unconfirmed.</p>
           </article>
         </div>
       </section>
 
       <footer>
-        <div className="footer-mark"><CircleDot size={18} /> ASTRA / 09</div>
+        <div className="footer-mark"><CircleDot size={18} /> ARCHIVE / 09</div>
         <p>This archive updates as verified intelligence becomes available.</p>
         <span>End of accessible record</span>
       </footer>
     </main>
-  )
-}
   )
 }
