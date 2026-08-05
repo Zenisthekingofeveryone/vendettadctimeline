@@ -183,21 +183,21 @@ function TimelineArchive() {
         </a>
         <div className="nav-status">
           <span className="pulse" />
-          Archive connection stable
+         connection stable
         </div>
         <a className="nav-link" href="#current-status">Current status</a>
       </nav>
 
       <section className="hero" id="top">
         <div className="hero-kicker reveal reveal-1">
-          <span>Restricted historical record</span>
+          <span>historical record</span>
           <span>File 7A–2095</span>
         </div>
         <div className="hero-title-wrap reveal reveal-2">
           <p className="hero-index">01—10</p>
           <h1>
             <span>THE</span>
-            <span className="outlined">ARRIVAL</span>
+            <span className="outlined">Timeline</span>
           </h1>
           <div className="hero-stamp" aria-hidden="true">
             <Crosshair size={28} />
@@ -206,8 +206,7 @@ function TimelineArchive() {
         </div>
         <div className="hero-copy reveal reveal-3">
           <p>
-            A chronological record of first contact, missing time, and the week
-            humanity learned it was not alone.
+            A chronological record of the DC Timeline
           </p>
           <div className="scroll-cue">
             <span>Begin transmission</span>
