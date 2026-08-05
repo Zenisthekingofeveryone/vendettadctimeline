@@ -69,7 +69,7 @@ const events: TimelineEvent[] = [
   },
   {
     id: 4,
-    date: '???',
+    date: '',
     year: '',
     title: 'The White Knight',
     description:
