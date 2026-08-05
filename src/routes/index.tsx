@@ -39,7 +39,7 @@ const events: TimelineEvent[] = [
     year: '',
     title: 'Fear Has A Name',
     description:
-      'The city never truly sleeps. To most, he's only a myth. To those who prey on the innocent, he's the last thing they'll ever see.',
+      "The city never truly sleeps. To most, he's only a myth. To those who prey on the innocent, he's the last thing they'll ever see.",
     faction: 'Earth',
     status: 'Ongoing',
     accent: 'amber',
@@ -73,7 +73,7 @@ const events: TimelineEvent[] = [
     year: '',
     title: 'The White Knight',
     description:
-      'A new symbol of hope begins to rise within Gotham. A respected figure in the fight against corruption starts challenging the forces that control the city, while a young shadow from a tragic past steps into the world.”',
+      'A new symbol of hope begins to rise within Gotham. A respected figure in the fight against corruption starts challenging the forces that control the city, while a young shadow from a tragic past steps into the world.',
     faction: 'Earth',
     status: 'Pending',
     accent: 'cyan',
@@ -94,7 +94,7 @@ const events: TimelineEvent[] = [
     id: 6,
     date: '',
     year: '',
-    title: 'The World's Finest',
+    title: "The World's Finest",
     description:
       'For the first time, the world looks beyond the shadows of Gotham and sees something impossible.',
     faction: 'Unknown',
@@ -106,8 +106,7 @@ const events: TimelineEvent[] = [
     date: '',
     year: '',
     title: 'LOCKED',
-    description:
-      'LOCKED',
+    description: 'LOCKED',
     faction: 'Unknown',
     status: 'Unexplained',
     accent: 'cyan',
@@ -117,8 +116,7 @@ const events: TimelineEvent[] = [
     date: '',
     year: '',
     title: 'LOCKED',
-    description:
-      'LOCKED',
+    description: 'LOCKED',
     faction: 'Unknown',
     status: 'Unexplained',
     accent: 'cyan',
@@ -128,10 +126,9 @@ const events: TimelineEvent[] = [
     date: '',
     year: '',
     title: 'LOCKED',
-    description:
-      'LOCKED',
-    faction: 'Unknown ',
-    status: 'Unexplained ',
+    description: 'LOCKED',
+    faction: 'Unknown',
+    status: 'Unexplained',
     accent: 'cyan',
   },
   {
@@ -139,15 +136,14 @@ const events: TimelineEvent[] = [
     date: '',
     year: '',
     title: 'LOCKED',
-    description:
-      'LOCKED.',
+    description: 'LOCKED.',
     faction: 'Unknown',
-    status: 'Unexplained ',
+    status: 'Unexplained',
     accent: 'cyan',
   },
 ]
 
-const factions: Faction[] = ['All', 'Astra', 'Earth', 'Unknown']
+const factions: Faction[] = ['All', 'Earth', 'Unknown']
 
 function TimelineArchive() {
   const [activeFaction, setActiveFaction] = useState<Faction>('All')
@@ -177,9 +173,9 @@ function TimelineArchive() {
       <div className="orb orb-two" aria-hidden="true" />
 
       <nav className="topbar" aria-label="Primary navigation">
-        <a className="brand" href="#top" aria-label="Astra Archive home">
+        <a className="brand" href="#top" aria-label="Timeline Archive home">
           <span className="brand-mark"><CircleDot size={18} /></span>
-          <span>ASTRA / 09</span>
+          <span>ARCHIVE / 09</span>
         </a>
         <div className="nav-status">
           <span className="pulse" />
@@ -349,5 +345,7 @@ function TimelineArchive() {
         <span>End of accessible record</span>
       </footer>
     </main>
+  )
+}
   )
 }
