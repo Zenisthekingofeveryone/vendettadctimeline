@@ -1,5 +1,4 @@
-# The Arrival — Astra Archive
-
+# VENDETTA DC CINEMATIC TIMELINE
 A cinematic, responsive timeline experience inspired by classified sci-fi archives. The page chronicles a fictional first-contact event through staggered timeline entries, chapter markers, searchable records, faction filters, and a current-status intelligence panel.
 
 ## Technology
