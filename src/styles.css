@@ -110,6 +110,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .nav-link { justify-self: end; color: var(--muted); transition: color .2s ease; }
 .nav-link:hover { color: var(--amber); }
+.brand:focus-visible,
+.nav-link:focus-visible,
+.faction-tabs button:focus-visible,
+.filter-toggle:focus-visible,
+.search-box button:focus-visible,
+.empty-state button:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 4px;
+}
 
 .hero {
   width: min(1180px, calc(100% - 48px));
