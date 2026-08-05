@@ -228,6 +228,7 @@ function TimelineArchive() {
                 type="button"
                 className={activeFaction === faction ? 'active' : ''}
                 onClick={() => setActiveFaction(faction)}
+                aria-pressed={activeFaction === faction}
               >
                 {faction}
               </button>

@@ -19,7 +19,16 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'A cinematic interactive timeline chronicling Vendetta's Dc Timeline.',
+          "A cinematic interactive timeline chronicling Vendetta's DC Timeline.",
+      },
+      {
+        property: 'og:title',
+        content: 'The Vendetta-DC Timeline',
+      },
+      {
+        property: 'og:description',
+        content:
+          "A cinematic classified archive chronicling Vendetta's DC Timeline.",
       },
       {
         name: 'theme-color',
